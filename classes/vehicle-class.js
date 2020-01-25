@@ -6,7 +6,7 @@ class Vehicle {
 
     constructor(name, wheels) {
 
-        this.name = name;
+        this.name = name;          
         this.wheels = wheels;
     }
 
@@ -58,7 +58,7 @@ class Motorcycle extends Vehicle {
     
 
     wheelie() 
-    {                              // this method with motrocycle
+    {
         return 'Wheee!';
     }
 } 

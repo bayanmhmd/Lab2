@@ -4,6 +4,12 @@ const Vehicle = function(name, wheels) {
   this.name = name;
   this.wheels = wheels;
 };
+class Vehicle {
+  constructor(name,wheels){
+    this.name=name;
+    this.wheels=wheels;
+  }
+}
 
 Vehicle.prototype.drive = () => {
   return 'Moving Forward';
@@ -13,13 +19,13 @@ Vehicle.prototype.stop = () => {
   return 'Stopping';
 };
 
-// Car Constructor
+/////////////////////////////////// Car Constructor
 const Car = function(name) {
   Vehicle.call(this, name, 4);
 };
 
 Car.prototype = new Vehicle();
-
+ /////////////////////////////////// motorcycle//////////////////////
 const Motorcycle = function(name) {
   Vehicle.call(this,name,2);
 };

@@ -17,7 +17,4 @@
     "url": "https://github.com/bayanmhmd/Lab2/issues"
   },
   "homepage": "https://github.com/bayanmhmd/Lab2#readme",
-  "dependencies": {
-    "jest": "^25.1.0"
-  }
 }
