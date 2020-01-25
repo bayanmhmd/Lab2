@@ -1,14 +1,5 @@
 'use strict';
 
-class Car {
-}
-
-module.exports = Car;
-
-
-
-'use strict';
-
 /////////////////////////////////// Vehicle Class ///////////////////////////
 class Vehicle {
 
