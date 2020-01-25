@@ -17,4 +17,8 @@
     "url": "https://github.com/bayanmhmd/Lab2/issues"
   },
   "homepage": "https://github.com/bayanmhmd/Lab2#readme",
+  "dependencies": {
+    "eslint": "^6.8.0",
+    "jest": "^25.1.0"
+  }
 }

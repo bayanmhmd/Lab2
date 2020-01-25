@@ -3,8 +3,7 @@
 
 /////////////////////////////////// Vehicle Class ///////////////////////////
 class Vehicle {
-
-    constructor(name, wheels) {
+    constructor (name, wheels) {
 
         this.name = name;          
         this.wheels = wheels;
