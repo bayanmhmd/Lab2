@@ -1,5 +1,7 @@
+/* eslint-disable no-console */
 'use strict';
 
+// eslint-disable-next-line no-undef
 const VehicleConstructor = require('./vehicle-constructor.js');
 
 // Implement a car and motorcycle using a Constructor

@@ -1,65 +1,68 @@
+/* eslint-disable no-undef */
+/* eslint-disable no-unused-vars */
 
 'use strict';
 
 /////////////////////////////////// Vehicle Class ///////////////////////////
 class Vehicle {
-    constructor (name, wheels) {
+  constructor (name, wheels) {
 
-        this.name = name;          
-        this.wheels = wheels;
-    }
+    this.name = name;
+    this.wheels = wheels;
+  }
 
-    drive() 
-    {
-        return 'Moving Forward';
-    }
+  drive()
+  {
+    return 'Moving Forward';
+  }
 
-    stop() 
-    {
-        return 'Stopping';
-    }
-} 
+  stop()
+  {
+    return 'Stopping';
+  }
+}
 
 
 //////////////////////////////////////////// Car Class ///////////////////////////////////////////
 class Car extends Vehicle {
 
-    constructor(name, wheels) {
+  // eslint-disable-next-line no-unused-vars
+  constructor(name, wheels) {
 
-        super(name, 4);        //Now  we use SUPER to be able to use methods in Vehicle Class
-        
-    }
-    run() 
-    {
-        super.drive();
-        super.stop();
-    }
+    super(name, 4);        //Now  we use SUPER to be able to use methods in Vehicle Class
 
-   
+  }
+  run()
+  {
+    super.drive();
+    super.stop();
+  }
+
+
 }
 
 
 ///////////////////////////////////////////// Motorcycle Class ///////////////////////////////////
 class Motorcycle extends Vehicle {
 
-    constructor(name, wheels) {
-       
-        super(name, 2);
-    }
+  constructor(name, wheels) {
 
-    
-    run() 
-    {
-        super.drive();
-        super.stop();
-    }
+    super(name, 2);
+  }
 
-    
 
-    wheelie() 
-    {
-        return 'Wheee!';
-    }
-} 
+  run()
+  {
+    super.drive();
+    super.stop();
+  }
 
-module.exports = { Car, Motorcycle };
+
+
+  wheelie()
+  {
+    return 'Wheee!';
+  }
+}
+
+module.exports = { Car, Motorcycle, };

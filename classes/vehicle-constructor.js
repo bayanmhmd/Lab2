@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 'use strict';
 
 const Vehicle = function(name, wheels) {
@@ -20,7 +21,7 @@ const Car = function(name) {
 };
 
 Car.prototype = new Vehicle();
- /////////////////////////////////// motorcycle//////////////////////
+/////////////////////////////////// motorcycle//////////////////////
 const Motorcycle = function(name) {
   Vehicle.call(this,name,2);
 };
@@ -31,4 +32,4 @@ Motorcycle.prototype.wheelie = () => {
   return 'Wheee!';
 };
 
-module.exports = {Car, Motorcycle};
+module.exports = {Car, Motorcycle,};
